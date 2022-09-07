@@ -1,27 +1,20 @@
-# Jwtexample
+The Project is sample example for Routing in angular. Here I have used json in order to fetch the data and I also used the authentication i.e. JWT Token using this the login form will works and actaully its a dummy Token which I have taken a reference from internet.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+#In order to run
+first run json server
 
-## Development server
+If you don't have the JSON server you need to install it first using below command in temrinal
+--> npm install -g json-server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+And I have created a JSON file as data.json where I will all the data in there
+In order to run it use the command
+--> json-server --watch data.json
+After running the coomand in terminal it will show like this
 
-## Code scaffolding
+Resources
+  http://localhost:3000/Users
+Then click on the below link
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+And now you need to run the Angular application
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-->ng serve -o
