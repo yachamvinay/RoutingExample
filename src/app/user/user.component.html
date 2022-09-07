@@ -1,0 +1,43 @@
+<table mat-table [dataSource]="UserList" class="mat-table">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> Product ID. </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+  
+
+    <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef>Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.Name}} </td>
+      </ng-container>
+
+    
+      <ng-container matColumnDef="Password">
+        <th mat-header-cell *matHeaderCellDef>Password </th>
+        <td mat-cell *matCellDef="let element"> {{element.Password}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="MotherName">
+        <th mat-header-cell *matHeaderCellDef>Mother Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.MotherName}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="phone">
+        <th mat-header-cell *matHeaderCellDef>Phone Num </th>
+        <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Address">
+        <th mat-header-cell *matHeaderCellDef>Address </th>
+        <td mat-cell *matCellDef="let element"> {{element.Address}} </td>
+      </ng-container>
+
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumnsnames"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumnsnames;"></tr>
+  </table>
+  <router-outlet></router-outlet>

@@ -1,0 +1,28 @@
+{
+"Users": [
+    {
+    "id": 1,
+    "Name": "Deepak Sharma",
+    "Password": "SR2045",
+    "MotherName": "Mrs Radha Sharma",
+    "phone": "9898998877",
+    "Address": "52 bhola ganj New Delhi"
+    },
+    {
+    "id": 2,
+    "Name": "rOHIT Sharma",
+    "Password": "sr2345",
+    "MotherName": "Mrs Roy Sharma",
+    "phone": "12345688",
+    "Address": "52 bhola ganj Kolkata"
+    },
+    {
+        "id": 3,
+        "Name": "Vinay",
+        "Password": "sr2345",
+        "MotherName": "Vinay yacham",
+        "phone": "12345688",
+        "Address": "nandyal"
+    }
+    ]
+}   
